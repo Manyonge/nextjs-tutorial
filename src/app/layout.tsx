@@ -22,7 +22,7 @@ function TopNav(){
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
-  return (
+  return ( 
     <html lang="en" className={`${GeistSans.variable}`}>
       <body className='flex flex-col gap-4' >
         <TopNav/>
